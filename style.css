@@ -144,15 +144,27 @@
 /* Here starts .container-three and their items in order */
 
 .container-three {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 7em 20%;
+  background-color: #e5e7eb;
 }
 
 .quote {
+  display: flex;
+  flex-direction: column;
 }
 
-.quote p {
+.quote > p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
 }
 
 .quote h2 {
+    text-align: end;
 }
 /* Here finalize .container-three */
 
