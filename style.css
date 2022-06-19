@@ -79,7 +79,6 @@
   background-color: #3882f6;
   border: none;
   border-radius: 5px;
-  padding: 8px 24px;
   height: 31px;
   width: 120px;
 }
@@ -157,37 +156,62 @@
 }
 
 .quote > p {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 100;
-    color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
 }
 
 .quote h2 {
-    text-align: end;
+  text-align: end;
 }
 /* Here finalize .container-three */
 
 /* Here starts .container-four and their items in order */
 .container-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6em 9em;
 }
 
 .modal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  min-height: 13vh;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
 }
 
 .half-left {
+  display: flex;
+  flex-direction: column;
 }
 
 .half-left h3 {
+  color: #f9faf8;
 }
 
 .half-left p {
+  color: #f9faf8;
 }
 
 .half-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.half-right button {
+.half-right > button {
+  color: white;
+  background-color: #3882f6;
+  border: white 2px solid;
+  border-radius: 5px;
+  height: 31px;
+  width: 120px;
 }
 /* Here finalize .container-four */
 
