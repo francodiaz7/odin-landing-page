@@ -1,48 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Here starts .container-one and their items in order */
 .container-one {
-
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  height: 80vh;
 }
 
 /* Here starts .header and their items in order */
 .header {
-
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-self: stretch;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  gap: 15%;
 }
-.header h2 {
 
+.left-links {
+  font-size: 24px;
+  color: #f9faf8;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 
 .header ul {
-
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
 
 .header ul li {
-
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .header ul a {
-
+  text-decoration: none;
 }
 /* Here finalize .header's items */
 /* Here starts .start items */
 .start {
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  flex: 1 1 auto;
 }
 
-.start div h1 {
-
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 15%;
+  flex: 1;
 }
 
-.start div p {
-
+.intro-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
 }
 
-.start div button {
+.intro-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
 
+.intro-text button {
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 24px;
+  height: 31px;
+  width: 120px;
 }
 
 .img-placeholder {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  margin-right: 15%;
+  flex: 1;
 }
 /* Here finalize .start items */
 
@@ -50,85 +98,66 @@
 
 /* Here starts .container-two and their items in order */
 .container-two {
-
 }
 
 .container-two div h1 {
-
 }
 
 .two-items {
-
 }
 
 .item {
-
 }
 
 .item div {
-
 }
 
 .item p {
-
 }
 /* Here finalize .container-two */
 
 /* Here starts .container-three and their items in order */
 
 .container-three {
-
 }
 
 .quote {
-
 }
 
 .quote p {
-
 }
 
 .quote h2 {
-
 }
 /* Here finalize .container-three */
 
 /* Here starts .container-four and their items in order */
 .container-four {
-
 }
 
 .modal {
-
 }
 
 .half-left {
-
 }
 
 .half-left h3 {
-
 }
 
 .half-left p {
-
 }
 
 .half-right {
-
 }
 
 .half-right button {
-
 }
 /* Here finalize .container-four */
 
 /* Here starts footer and their items in order */
 footer {
-
 }
 
 footer p {
-
 }
 /* Here finalize footer */
