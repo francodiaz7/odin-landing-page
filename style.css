@@ -50,17 +50,17 @@
 /* Here starts .start items */
 .start {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   gap: 30px;
-  flex: 1 1 auto;
+  padding: 15%;
 }
 
 .intro-text {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-left: 15%;
   flex: 1;
 }
 
@@ -89,7 +89,7 @@
   justify-content: center;
   align-items: center;
   background-color: #e5e7eb;
-  margin-right: 15%;
+  height: 100%;
   flex: 1;
 }
 /* Here finalize .start items */
@@ -100,9 +100,11 @@
 .container-two {
   display: flex;
   flex-flow: column wrap;
+  justify-content: center;
   align-items: center;
   background-color: #f9faf8;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
+  width: 100%;
 }
 
 .container-two > div > h1 {
@@ -110,20 +112,19 @@
   font-weight: bolder;
   color: #1f2937;
   padding-top: 40px;
+  text-align: center;
 }
 
 .two-items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 25px;
   padding: 60px;
 }
 
 .item {
-  /* min-height: 170px; */
-  /* min-width: 170px; */
-  max-height: 170px;
   max-width: 170px;
 }
 
@@ -173,7 +174,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6em 9em;
+  padding: 9% 13%;
 }
 
 .modal {
