@@ -181,10 +181,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   flex: 1;
-  min-height: 13vh;
+  min-height: 12vh;
   background-color: #3882f6;
   color: #f9faf8;
+  padding: 5% 8%;
+  gap: 30px;
   border-radius: 5px;
 }
 
